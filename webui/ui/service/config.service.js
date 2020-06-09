@@ -9,9 +9,6 @@ angular.module('kityminderEditor').provider('config', function () {
     // 分割线宽度
     dividerWidth: 3,
 
-    // 默认语言
-    defaultLang: 'en',
-
     lang: 'en',
 
     // 放大缩小比例

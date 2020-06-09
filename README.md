@@ -2,7 +2,9 @@
   <h1 align="center">vscode-mindmap</h1>
 </p>
 
-![mindmap](https://img.souche.com/f2e/f12837b4057a8f1c5dd5033560a48f20.gif)
+Forked from: https://github.com/souche/vscode-mindmap
+
+Main difference from the main repo is proper support for other languages (defaulting to English) as the original extension has various dialogs in Chinese.
 
 ## Features
 
@@ -36,10 +38,8 @@
 
     check your vscode version, please ensure the version is 1.29.0 or above
 
-## Feedback
 
-![Feedback](https://img.souche.com/f2e/5e127e01cf164f9f9cff4892653d7d02.jpeg)
+## Acknowledgments
 
-## 
+This fork uses code from https://github.com/ACTom/kityminder-editor, which by itself is a fork from https://github.com/fex-team/kityminder-editor to add proper i18n support
 
-[大搜车无线开发中心](https://blog.souche.com/tag/frontend/) Present

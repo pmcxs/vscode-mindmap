@@ -4,10 +4,10 @@
   "icon": "resources/icon.png",
   "description": "mindmap for vscode (with i18n support)",
   "version": "0.0.6",
-  "publisher": "Souche",
+  "publisher": "pmcxs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/souche/vscode-mindmap.git"
+    "url": "https://github.com/pmcxs/vscode-mindmap.git"
   },
   "engines": {
     "vscode": "^1.29.0"
@@ -22,6 +22,17 @@
   ],
   "main": "./out/extension",
   "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "vscode-mindmap",
+      "properties": {
+        "vscodemindmap.language": {
+          "type": "string",
+          "default": "en",
+          "description": "Language to use on the Mindmap UI"
+        }
+      }
+    },
     "languages": [
       {
         "id": "km",
